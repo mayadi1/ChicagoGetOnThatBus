@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  GoToJail
 //
-//  Created by Christopher Benavides on 6/15/16.
-//  Copyright © 2016 Christopher Benavides. All rights reserved.
+//  Created by Mohamed Ayadi on 6/15/16.
+//  Copyright © 2016 Mohamed Ayadi. All rights reserved.
 //
 
 import UIKit
@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        UIApplication.sharedApplication().statusBarStyle = .LightContent
         return true
     }
 
